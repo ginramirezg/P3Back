@@ -1,3 +1,6 @@
+/* JORGE FERRERO DE LARA
+GINA ANDREA RAMIREZ GUERRERO */
+
 import type { Collection } from "mongodb";
 import type { niños, niñosModel, lugares, lugaresModel } from "./types.ts";
 

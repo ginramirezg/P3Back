@@ -1,3 +1,6 @@
+/* JORGE FERRERO DE LARA
+GINA ANDREA RAMIREZ GUERRERO */
+
 import { MongoClient } from "mongodb";
 import { fromModelToNiño, fromModelToLugar } from "./resolvers.ts";
 import type { niñosModel, lugaresModel } from "./types.ts";

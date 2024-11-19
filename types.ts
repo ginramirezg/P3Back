@@ -1,3 +1,6 @@
+/* JORGE FERRERO DE LARA
+GINA ANDREA RAMIREZ GUERRERO */
+
 import { ObjectId } from "mongodb";
 
 // Tipo para los niños, que se usa en las respuestas del servidor
