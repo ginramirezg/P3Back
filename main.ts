@@ -5,11 +5,10 @@ import { MongoClient } from "mongodb";
 import { fromModelToNiño, fromModelToLugar } from "./resolvers.ts";
 import type { niñosModel, lugaresModel } from "./types.ts";
 
-const MONGO_URL = Deno.env.get("MONGO_URL");
+const MONGO_URL = "mongodb+srv://gramirezg:<db_password>@nebrijacluster.q7zhz.mongodb.net/?retryWrites=true&w=majority&appName=NebrijaCluster"
 
 if (!MONGO_URL) {
   console.error("MONGO_URL is not set");
-  Deno.exit(1);
 }
 
 const client = new MongoClient(MONGO_URL);
